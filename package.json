@@ -12,6 +12,7 @@
     "url": "git+https://github.com/sviatoslava13/glowak.git"
   },
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "parcel": "latest"
   }
 }
