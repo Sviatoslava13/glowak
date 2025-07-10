@@ -5,7 +5,8 @@
   "homepage": "https://sviatoslava13.github.io/glowak",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build"
+    "build": "parcel build",
+          "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
