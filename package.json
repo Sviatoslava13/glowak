@@ -1,0 +1,17 @@
+{
+  "name": "glowak",
+  "source": "src/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "homepage": "https://sviatoslava13.github.io/glowak",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sviatoslava13/glowak.git"
+  },
+  "devDependencies": {
+    "parcel": "latest"
+  }
+}
