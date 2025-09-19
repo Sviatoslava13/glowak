@@ -1,0 +1,272 @@
+@media screen and (width <= 743px) {
+  body {
+    min-height: auto;
+    overflow-x: hidden;
+  }
+
+  .header {
+    background-color: #e7d8c9f2;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 130px;
+    display: flex;
+  }
+
+  .select {
+    order: 3;
+    width: 75px;
+    margin-top: 0;
+    margin-left: auto;
+  }
+
+  .selected {
+    width: 100%;
+    margin-left: 0;
+    padding: 3px;
+    font-size: 12px;
+  }
+
+  .nav_header {
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    display: flex;
+  }
+
+  .toggle-switch {
+    order: 2;
+    margin-left: auto;
+  }
+
+  .logo_header {
+    width: 60px;
+    height: 60px;
+  }
+
+  .img_burgermenu, .img_closemenu {
+    width: 30px;
+    height: 30px;
+  }
+
+  .switch-label {
+    border-radius: 17.5px;
+    width: 70px;
+    height: 35px;
+  }
+
+  .ul_header {
+    z-index: 90;
+    background-color: #e7d8c9f2;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 20px 0;
+    display: none;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    box-shadow: 0 5px 10px #0000001a;
+  }
+
+  .ul_header.active {
+    display: flex;
+  }
+
+  .li_header {
+    width: fit-content;
+    margin: 10px 0;
+  }
+
+  .line_header {
+    display: none;
+  }
+
+  .burger_menu {
+    cursor: pointer;
+    z-index: 101;
+    background: none;
+    border: none;
+    margin-left: auto;
+    padding: 0;
+    display: block;
+  }
+
+  .img_burgermenu {
+    width: 30px;
+    height: 30px;
+  }
+
+  body.dark-theme .ul_header {
+    background-color: #4b4c4ff2;
+  }
+
+  .slider:before {
+    width: 20px;
+    height: 20px;
+    top: 7px;
+    left: 7px;
+  }
+
+  .checkbox:checked ~ .slider:before {
+    transform: translateX(35px);
+  }
+
+  .select {
+    width: 60px;
+    margin-top: 0;
+    margin-left: 10px;
+  }
+
+  .selected {
+    width: 60px;
+    padding: 3px;
+    font-size: 12px;
+  }
+
+  .arrow {
+    width: 15px;
+    height: 7px;
+  }
+
+  .options {
+    margin-bottom: 25px;
+    top: -10px;
+  }
+
+  .option {
+    width: 80px;
+    font-size: 12px;
+  }
+
+  .profile-section {
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .left-column {
+    margin-bottom: 15px;
+    padding-right: 0;
+  }
+
+  .ul_header {
+    display: none;
+  }
+
+  .burger_menu {
+    display: block;
+  }
+
+  .nav_header {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .a_nav img.logo_header {
+    max-width: 100px;
+  }
+
+  .toggle-switch, .select {
+    margin-left: auto;
+  }
+
+  .profile-image {
+    width: 100px;
+    height: 100px;
+  }
+
+  .right-column {
+    text-align: left;
+    width: 100%;
+    padding-left: 0;
+  }
+
+  h1 {
+    font-size: 38px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  .qualification-section li {
+    padding: 10px;
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 38px;
+  }
+
+  ul {
+    padding-left: 15px;
+  }
+
+  li {
+    font-size: 14px;
+  }
+
+  .certificate-image {
+    height: auto;
+    max-width: 80% !important;
+  }
+
+  .accent-button, .floating-button {
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+    bottom: 15px;
+    left: auto;
+    right: 15px;
+  }
+
+  .modal-content {
+    max-width: 95%;
+    max-height: 95%;
+  }
+
+  .close-button {
+    font-size: 30px;
+    top: 10px;
+    right: 20px;
+  }
+
+  .arrow {
+    font-size: 24px;
+    left: 10px;
+    right: 10px;
+  }
+
+  .footer {
+    padding: 10px 0;
+  }
+
+  .container_footer {
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    width: 95%;
+  }
+
+  .footer-links-left, .footer-links-right, .footer-contact {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .footer-item, .footer-contact-item {
+    font-size: 16px;
+  }
+
+  .footer-logo-img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .swiper-container {
+    height: 350px;
+    padding: 40px 0;
+  }
+}
+/*# sourceMappingURL=biography.17064ae8.css.map */
