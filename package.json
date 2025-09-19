@@ -6,14 +6,18 @@
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-          "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Sviatoslava13/glowak.git"
   },
   "devDependencies": {
+    "@parcel/transformer-raw": "^2.15.4",
     "gh-pages": "^6.3.0",
     "parcel": "latest"
+  },
+  "dependencies": {
+    "@parcel/transformer-image": "^2.15.4"
   }
 }
