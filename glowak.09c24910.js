@@ -56,6 +56,12 @@ const books = [
         url: "https://drive.google.com/file/d/1GDyY1JRawd7USW23uWmRnPiU1sZ66yaH/view"
     },
     {
+        name: "GG2 Workbook.pdf",
+        id: "1zWhe0lo0IDWFMFQuZ4BR2nv-O8PGxbnP",
+        size: 22817790,
+        url: "https://drive.google.com/file/d/1jTqibchB1doh80r8RauCH_D0x-pUbz1k/view"
+    },
+    {
         name: "GG2 Student's Book.pdf",
         id: "1jTqibchB1doh80r8RauCH_D0x-pUbz1k",
         size: 22817790,
@@ -84,6 +90,12 @@ const books = [
         id: "1O1hFBJNpqW5JqqjihijzlJSCjWwjxVyZ",
         size: 22817790,
         url: "https://drive.google.com/file/d/1O1hFBJNpqW5JqqjihijzlJSCjWwjxVyZ/view"
+    },
+    {
+        name: "Solutions Inter.3rd Workbook.pdf",
+        id: "1zWhe0lo0IDWFMFQuZ4BR2nv-O8PGxbnP",
+        size: 22817790,
+        url: "https://drive.google.com/file/d/1cLsFMDucoLpaMvzJvl1L7sU7eUNGZhy9/view"
     },
     {
         name: "Solutions Inter.3rd Student's Book (2).pdf",
@@ -176,6 +188,12 @@ const books = [
         url: "https://drive.google.com/file/d/1Dc2Tqs_odDk4cF0niEhQSyt82tPMdVoS/view"
     },
     {
+        name: "English for Everyone.  Grammar Guide (2).pdf",
+        id: "1zWhe0lo0IDWFMFQuZ4BR2nv-O8PGxbnP",
+        size: 22817790,
+        url: "https://drive.google.com/file/d/1QaiVQaPlq3wWHWw0YEKDzG0EVYZe40Tk/view"
+    },
+    {
         name: "AEF 3rd 2 Workbook.pdf",
         id: "1J-bxHJonh4eytVIqHzlvEaLv9heC3qWE",
         size: 22817790,
@@ -216,6 +234,66 @@ const books = [
         id: "1e2rE3TiPON1QhaAhiTun8E5Wz8ecoj21",
         size: 22817790,
         url: "https://drive.google.com/file/d/1e2rE3TiPON1QhaAhiTun8E5Wz8ecoj21/view"
+    },
+    {
+        name: "AEF 3rd 3 Stud. Book.pdf",
+        id: "1zWhe0lo0IDWFMFQuZ4BR2nv-O8PGxbnP",
+        size: 22817790,
+        url: "https://drive.google.com/file/d/1CdeNGgUpg6js4DXEU2viMD9AEpuZpOD6/view"
+    },
+    {
+        name: "AEF 3rd 4 Stud. Book.pdf",
+        id: "12vH966hMahh7zPq1-7dWUbWLyWzFmloP",
+        size: 22817790,
+        url: "https://drive.google.com/file/d/12vH966hMahh7zPq1-7dWUbWLyWzFmloP/view"
+    },
+    {
+        name: "AEF 3rd 5 Stud. Book.pdf",
+        id: "1WSUu81OeYh3kYV0HcIYFXVLdKtwodcUj",
+        size: 22817790,
+        url: "https://drive.google.com/file/d/1WSUu81OeYh3kYV0HcIYFXVLdKtwodcUj/view"
+    },
+    {
+        name: "EF4th Intermediate Student's Book (2).pdf",
+        id: "18b7nzLqvNAdB8QabACcqwKSKCD7eUEnv",
+        size: 22817790,
+        url: "https://drive.google.com/file/d/18b7nzLqvNAdB8QabACcqwKSKCD7eUEnv/view"
+    },
+    {
+        name: "EF4th Upper-Intermediate Student's Book.pdf",
+        id: "1l4Rha6AHSC5mouSnFeHK9kjlx16PUZha",
+        size: 22817790,
+        url: "https://drive.google.com/file/d/1l4Rha6AHSC5mouSnFeHK9kjlx16PUZha/view"
+    },
+    {
+        name: "GG1 Workbook.pdf",
+        id: "1gPN2GyaFXpAwhR8pKACLAJBmYaGGJTcP",
+        size: 22817790,
+        url: "https://drive.google.com/file/d/1gPN2GyaFXpAwhR8pKACLAJBmYaGGJTcP/view"
+    },
+    {
+        name: "GG4 Student's Book.pdf",
+        id: "1hkcGy9YBrGeH4YFfrNMNSBeDC3tS3qt5",
+        size: 22817790,
+        url: "https://drive.google.com/file/d/1hkcGy9YBrGeH4YFfrNMNSBeDC3tS3qt5/view"
+    },
+    {
+        name: "SpeakOut A1 3rd Stud. Book.pdf",
+        id: "1hkcGy9YBrGeH4YFfrNMNSBeDC3tS3qt5",
+        size: 22817790,
+        url: "https://drive.google.com/file/d/1-BAQ2wiZpGct3JIfezuNqN_4LzoW4viN/view"
+    },
+    {
+        name: "SpeakOut A2 3rd Stud. Book.pdf",
+        id: "164NY2mtg_l_KNZTFRkT07FZLiuayDXdS",
+        size: 22817790,
+        url: "https://drive.google.com/file/d/164NY2mtg_l_KNZTFRkT07FZLiuayDXdS/view"
+    },
+    {
+        name: "SpeakOut B1 3rd Stud. Book.pdf",
+        id: "1mLmyW2p_PivC1rfxozBonaSO1z--zU4T",
+        size: 22817790,
+        url: "https://drive.google.com/file/d/1mLmyW2p_PivC1rfxozBonaSO1z--zU4T/view"
     }
 ];
 const openBooksModalBtn = document.getElementById('openBooksModalBtn');
