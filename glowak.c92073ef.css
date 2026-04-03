@@ -334,7 +334,7 @@ body {
 }
 
 .certificates:active {
-  transform: translateX(.1em)translateY(.1em);
+  transform: translateX(.1em) translateY(.1em);
   box-shadow: 0 0 0 4px #eaddca, 1.5px 1.5px 2.5px 1.5px #00000080;
 }
 
